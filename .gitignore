@@ -3,4 +3,5 @@ node_modules
 report/*
 .vscode
 .DS_store
-x-ray/reports/*
+test-report/*
+data/generated*
