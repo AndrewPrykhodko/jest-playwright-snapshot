@@ -1,10 +1,10 @@
 # Miro testing task
 
-Example of jest-playwright framework using DDT approaches, incorporates snapshot testing. Testing data is partially randomly generated with facker lib. Reporter has features to take screanshots on failures, test results are stored in form of JSON object.
+It is an example of jest-playwright framework using DDT approaches that incorporates snapshot testing. Testing data is partially randomly generated with facker lib. Reporter has features to take screanshots on failures, test results are stored in form of JSON object.
 
 ## Set up
 
-Framework was set up on Mac. Tests require nodejs.
+The framework was set up on Mac. Tests require nodejs.
 After repo is cloned execute next commands:
 
 ```npm install```
