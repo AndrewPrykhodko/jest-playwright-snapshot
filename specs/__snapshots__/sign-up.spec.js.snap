@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`signup for cliff submit 1`] = `
+Object {
+  "color": "rgb(255, 208, 47)",
+  "font": "Formular, Helvetica, Arial, serif",
+  "size": "14.9333px",
+  "text": "Weak password",
+}
+`;
+
+exports[`signup for cliff submit 2`] = `
+Object {
+  "color": "rgb(255, 101, 117)",
+  "font": "Formular, Helvetica, Arial, serif",
+  "size": "14.9333px",
+  "text": "Please agree with the Terms to sign up.",
+}
+`;
+
+exports[`signup for petra submit 1`] = `
+Object {
+  "color": "rgb(255, 101, 117)",
+  "font": "Formular, Helvetica, Arial, serif",
+  "size": "14.9333px",
+  "text": "Enter your email address.",
+}
+`;
+
+exports[`signup for petra submit 2`] = `
+Object {
+  "color": "rgb(255, 101, 117)",
+  "font": "Formular, Helvetica, Arial, serif",
+  "size": "14.9333px",
+  "text": "Enter your password.
+			",
+}
+`;
+
+exports[`signup for rock submit 1`] = `
+Object {
+  "color": "rgb(255, 101, 117)",
+  "font": "Formular, Helvetica, Arial, serif",
+  "size": "14.9333px",
+  "text": "Enter a valid email address.",
+}
+`;
+
+exports[`signup for rock submit 2`] = `
+Object {
+  "color": "rgb(255, 101, 117)",
+  "font": "Formular, Helvetica, Arial, serif",
+  "size": "14.9333px",
+  "text": "Please use 8+ characters for secure password.",
+}
+`;
+
+exports[`signup for rock submit 3`] = `
+Object {
+  "color": "rgb(255, 101, 117)",
+  "font": "Formular, Helvetica, Arial, serif",
+  "size": "14.9333px",
+  "text": "Please agree with the Terms to sign up.",
+}
+`;
+
+exports[`signup for stone submit 1`] = `
+Object {
+  "color": "rgb(255, 101, 117)",
+  "font": "Formular, Helvetica, Arial, serif",
+  "size": "14.9333px",
+  "text": "Sorry, this email is already registered",
+}
+`;
+
+exports[`signup for valid submit 1`] = `
+Object {
+  "color": "rgb(5, 0, 56)",
+  "font": "Spoof, Helvetica, Arial, serif",
+  "size": "34.1333px",
+  "text": "Check your email",
+}
+`;
+
+exports[`signup for valid submit 2`] = `
+Object {
+  "color": "rgb(5, 0, 56)",
+  "font": "Formular, Helvetica, Arial, serif",
+  "size": "19.2px",
+  "text": "",
+}
+`;

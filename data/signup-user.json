@@ -1,0 +1,64 @@
+{
+    "users": [
+        {
+            "fields": {
+                "name": "petra",
+                "email": "",
+                "pass": ""
+            },
+            "checkbox": {
+                "terms": true,
+                "subscribe": false
+            },
+            "err": {
+                "email": "empty",
+                "pass": "empty"
+            }
+        },
+        {
+            "fields": {
+                "name": "rock",
+                "email": "invalid",
+                "pass": "123"
+            },
+            "checkbox": {
+                "terms": false,
+                "subscribe": false
+            },
+            "err": {
+                "email": "invalid",
+                "pass": "complex",
+                "terms": "unchecked"
+            }
+        },
+        {
+            "fields": {
+                "name": "cliff",
+                "email": "valid@gmail.com",
+                "pass": "abcdefgh"
+            },
+            "checkbox": {
+                "terms": false,
+                "subscribe": false
+            },
+            "err": {
+                "pass": "complex",
+                "terms": "unchecked"
+            }
+        },
+        {
+            "fields": {
+                "name": "stone",
+                "email": "stone@gmail.com",
+                "pass": "abcdefgh"
+            },
+            "checkbox": {
+                "terms": true,
+                "subscribe": false
+            },
+            "err": {
+                "email": "registered"
+            }
+        }
+    ]
+}

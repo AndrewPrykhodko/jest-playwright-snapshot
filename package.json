@@ -1,0 +1,35 @@
+{
+    "name": "e2e",
+    "author": "Andrii",
+    "license": "Copyrighted",
+    "version": "1.0.0",
+    "description": "E2E",
+    "main": "parallel.js",
+    "scripts": {
+        "pretest": "node utils/data-generator.js",
+        "test": "target=chromium node node_modules/jest/bin/jest.js --json --runInBand --detectOpenHandles --runInBand --verbose --forceExit",
+        "lint": "./node_modules/.bin/eslint --ext .js ./",
+        "lint:fix": "./node_modules/.bin/eslint --fix --ext .js ./"
+    },
+    "dependencies": {
+        "faker": "^5.5.3",
+        "isomorphic-ws": "^4.0.1",
+        "playwright": "^1.15.0"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.15.0",
+        "dotenv": "^8.2.0",
+        "eslint": "^6.8.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-jest": "^23.8.0",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "jest": "^25.5.4",
+        "jest-expect-message": "^1.0.2",
+        "jest-json-reporter": "^1.2.2",
+        "jest-runner-groups": "^1.1.1",
+        "ramda": "^0.27.0"
+    }
+}
