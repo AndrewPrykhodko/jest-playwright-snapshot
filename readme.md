@@ -4,7 +4,7 @@ Example of jest-playwright framework using DDT approaches, incorporates snapshot
 
 ## Set up
 
-Frame work was set up on Mac. Tests require nodejs.
+Framework was set up on Mac. Tests require nodejs.
 After repo is cloned execute next commands:
 
 ```npm install```
